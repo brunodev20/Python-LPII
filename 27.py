@@ -16,7 +16,7 @@ digitar = True
 
 while digitar == True:
     try:
-        msg = int(input("Para enviar, utilize o comando 'Enviar'.\nDigite um número: "))
+        msg = int(input("Para enviar, utilize o comando '-1'.\nDigite um número: "))
         numeros.append(msg)
 
         if msg == -1:
